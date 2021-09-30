@@ -1,0 +1,23 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    text-align: center;
+}
+h2{
+    color: lightseagreen;
+}
+p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+controls{
+    margin: 0 auto;
+}
+

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color: #9b66ff;
+    font-family: "宋体";
+    font-size: 24px;
+    color: #222;
+    justify-content: center;
+}
+.header{
+    text-align:center;
+	width: 100%;
+	margin:0 auto 1px;
+	height:86px;
+	line-height:86px;
+	color:#fff;
+}
+.img{ 
+    text-align: center;
+    animation: rotate 20s linear infinite;
+    display: block;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 15%;
+    transform: translate(-50%,-50%);
+
+}
+@keyframes rotate{
+	0%{
+		transform: rotateZ(0deg);/*从0度开始*/
+	}
+	100%{
+		transform: rotateZ(360deg);/*360度结束*/
+	}
+}
+
